@@ -12,21 +12,9 @@ public class ServerMain
 	
     public static void main(String[] args)     
     {
-    	
-//    	try
-//    	{
-//    		prop= new Properties();//this creates an object of the class Properties
-//    		FileInputStream propIn= new FileInputStream("properties.prop");//This stream allows us to read the properties file
-//    		prop.load(propIn);//this loads the properties in memory
-//    		propIn.close();//this closes the FileInputStream, properties are still loaded in memory and can be used
-//    	}catch (IOException e) 
-//    	{
-//    		e.printStackTrace();
-//    	}
-    	
     	if (args.length !=1)
     	{
-    		System.out.println("Server usage, insert port");
+    		System.out.println("Server usage, insert port"); // TO INITIALIZE. ENTER PORT i.e   10007  (this port is used by the client)
     	}
     	else
     	{
