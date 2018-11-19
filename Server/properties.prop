@@ -1,0 +1,4 @@
+Port=10010
+DBUserName=sa
+DBPassword=sa
+DBPath=jdbc:h2:~/test
