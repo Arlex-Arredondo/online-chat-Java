@@ -18,7 +18,7 @@ public class ClientMain implements Runnable
 	static String nameOfThisClient=null;
 	protected static ArrayList<PrivateChatGUI> listOfPrivateChat = new ArrayList<>(); //to hold all private chats opened
     
-    public static void main(String[] args)   
+    public static void main(String[] args)  //TO INITIALIZE. ENTER 2 ARGUMENTS:   IP and PORT  i.e.   127.0.0.1  10007
     {   
     	if (args.length != 2 )    
         {    
