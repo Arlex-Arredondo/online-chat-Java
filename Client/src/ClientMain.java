@@ -13,7 +13,6 @@ public class ClientMain implements Runnable
     private static ObjectOutputStream out = null;   
     private static String host = "";   
     private static int port = 0; 
-    //public static Properties prop= null;
     
     private static Chat chat =null;
 	static String nameOfThisClient=null;
@@ -27,18 +26,7 @@ public class ClientMain implements Runnable
         }    
         else    
         {  
-    	
-//    	try
-//    	{
-//    		prop= new Properties();//this creates an object of the class Properties
-//    		FileInputStream propIn= new FileInputStream("properties.prop");//This stream allows us to read the properties file
-//    		prop.load(propIn);//this loads the properties in memory
-//    		propIn.close();//this closes the FileInputStream, properties are still loaded in memory and can be used
-//    	}catch (IOException e) 
-//    	{
-//    		e.printStackTrace();
-//    	}
-        	host = args[0];
+            host = args[0];
             port = Integer.parseInt(args[1]);  
             new LoginGUI();   
         }   
