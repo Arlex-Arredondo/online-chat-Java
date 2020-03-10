@@ -6,8 +6,8 @@ This is the final project for the module of Advanced programming at the Universi
 
 This application allows multiple users to chat via text with other users in the network. It uses Threads to allow for multiple connections and also uses a Client-Server infrastructure.
 
-The applcation is devided in 2 main parts, the Server and the Client.
-Server:  TO INITIALIZE. ENTER 1 ARGUMENTS:   PORT  i.e.  10007
+The application is devided in 2 main parts, the Server and the Client.
+Server:  To initialize, enter 1 argument:   PORT  i.e.  10007
 Client: TO INITIALIZE. ENTER 2 ARGUMENTS:   IP and PORT  i.e.   127.0.0.1  10007
 
 
