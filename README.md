@@ -13,6 +13,6 @@ Server:  To initialize, enter the port argument:  i.e.  10007
 Client: To initialize, enter server IP and PORT arguments:  i.e.   127.0.0.1  10007
 
 
-For the application to function, one computer needs to acts as the server and share the ip address with the rest of the users in order to connect. The application also uses the functionality of a data base to store the user names and passwords. We use the open source H2 dabase facilities for this scope. It also uses encryption for safeguard the passwords of the created users.
+For the application to function, one computer needs to acts as the server and share the ip address with the rest of the users in order to connect. The application also uses the functionality of a data base to store the user names and passwords. We used the open source H2 dabase facilities for this scope. It also uses encryption for safeguard the passwords of the created users.
 
 This was a group project. The group members are: -Edison Mataj -Neil Petiffer -Ernest Asamoah -Andres Herrera -Arlex Arredondo.
